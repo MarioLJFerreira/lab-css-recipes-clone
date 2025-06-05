@@ -22,3 +22,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#wrapper{
+  background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  height: 1260px;
+}
+
+#wrapper > h1{
+  color: white;
+  font-size: 180px;
+}
+
+#recipe{
+  padding: 5rem;
+}
+
+#recipe p{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#recipe img{
+  display: block;
+  margin: 0 auto;
+}
+hr{
+  width: 100%;
+  border: 2px solid grey;
+}
+
+#recipe h2{
+  font-size: 40px;
+  margin: 2rem 0;
+}
+
+#recipe li{
+  font-size: 20px;
+}
+
+#recipe li{
+  list-style-position: inside;
+  margin-left: 1rem;
+}
+
+#recipe li{
+  list-style-type: none;
+}
